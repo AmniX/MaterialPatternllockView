@@ -12,7 +12,7 @@ This Project is still in work, More Options will be added as soon as possible. S
 
 
 ### Screenshots First
-![enter image description here](https://vaadin.com/documents/10187/239105/Open+Source+logo/c40c6972-f6f7-4052-a197-1b442eabf8c4?t=1407413527014)
+![LockView Screenshot](https://raw.githubusercontent.com/AmniX/MaterialPatternllockView/master/raw/screen.jpg)
 
 ### Version
 1.0.0
