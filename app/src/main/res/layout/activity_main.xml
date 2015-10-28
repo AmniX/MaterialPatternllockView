@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/correct_pattern_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct Pattern"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/stealthmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correct_pattern_edittext"
+        android:checked="false"
+        android:text="Stealth mode" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pattern"
+        android:gravity="center"
+        android:text="Draw pattern to unlock:"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <com.amnix.materiallockview.MaterialLockView
+        xmlns:lockview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        lockview:LOCK_COLOR="#fff"
+        lockview:WRONG_COLOR="#ff0000"
+        lockview:CORRECT_COLOR="#00ff00"/>
+
+</RelativeLayout>
