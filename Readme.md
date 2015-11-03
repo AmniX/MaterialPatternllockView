@@ -1,4 +1,6 @@
 # Material Pattern LockView
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Material%20Pattern%20LockView-blue.svg?style=flat-square)](http://android-arsenal.com/details/1/2722)
+
 
 Material Pattern Lockview is a View which inspired from Lollipop+ Pattern lock.
 This Project is still in work, More Options will be added as soon as possible. Some KeyFeature of this Library.
